@@ -15,3 +15,7 @@
     clear: both;
     display: table;
   }
+  P::first-letter {
+    font-weight: bold;
+    color: ;
+  }

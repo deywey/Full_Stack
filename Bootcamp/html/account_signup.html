@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp</title>
-<link href="signup.css" rel="stylesheet" type="text/css">
+<link href="account_signup.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
     <center>
-   <h1>Newsletter Signup!</h1>
-   <h2>To Hear More About Beer</h2>
+   <h1>Signup!</h1>
+   
     <!--id is used for css reference. Type is to assist in the styling of input. Placeholder is used for identification in inspection. name is used for reference to fetching data from a server.-->
-   <form action="/Signup">
+<form>
+    <form action="/Signup">
+        <label for="email">Enter an Email:</label>
+        <input type="email" id="email" name="email" placeholder="email" required></br>
         <label for="username">Enter a Username:</label>
-        <input id="username" type="text" placeholder="username" name="username"></br>
+        <input id="username" type="text" placeholder="username" name="username" minlength="5" maxlength="30" required></br>
         <label for="password">Enter a Password:</label>
-        <input id="password" type="password" placeholder="password" name="username"></br>
+        <input id="password" type="password" placeholder="password" name="username" minlength="5" maxlength="30" required></br>
    </br>
         <p><b>Security Questions:</b></p>
         <label for="color"></label>
@@ -26,18 +29,31 @@
         What time is it? <input type="time" placeholder="current time"></br>
         <p>
             <form action="/signup">
-                <input type="checkbox" placeholder="checkbox" name="agree" id="checkbox"
+                <input type="checkbox" placeholder="checkbox" name="agree" id="checkbox" required>
                 <label for="agree">I agree to advocate beer</label>
-            </form>
+            
         </p>
     </br>
 
-      
-    </form>
-
    <form action="signup_confirmation.html">
     <button>Submit</button>
-   </form>
+   
+ 
+   
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br>
 </br>
