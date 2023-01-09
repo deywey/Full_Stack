@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(237, 227, 213)
+  }
+  @media (min-width: 10px){
+    #navbar {
+      font-weight: bold;
+    }
+  }
+  
+  #navbar {
+    text-align: left
+  }
+  
+  .italic {
+    font-style: italic;
+    font-size: 19px
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .underline {
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  
+  
