@@ -1,0 +1,49 @@
+h1 {
+    background-color: lightgrey;
+    width: 320px;
+    padding: 5px 10px;
+    font-size: 5em;
+    margin: 0px;
+}
+
+#boxleft {
+    height: 200px;
+}
+
+#boxright {
+    height: 200px;
+}
+
+.oldschool {
+    align-items: center;
+}
+
+.first {
+    color: bisque;
+    background-color: coral;
+    width: 500px;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    margin-bottom: 30px;
+}
+
+.second {
+    color: rgb(114, 38, 152);
+    background-color: rgb(179, 234, 37);
+    width: 50%;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    margin-bottom: 50px;
+}
+
+.third {
+    color: darkred;
+    background-color: rgb(34, 226, 244);
+    width: 80%;
+    border-width: 3px;
+    border-color: black;
+    border-style: dashed;
+    border-right-style: inset;
+}
