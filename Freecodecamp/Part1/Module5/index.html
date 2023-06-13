@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Like Survey</title>
+    <h1 id="title">Do You Like Me or Not?</h1>
+      <h3><p id="description">This is a short survey to determine if you like Marquis</p></h3>
+<link href="styles.css" rel="stylesheet">
+</head>
+<form id="survey-form"> 
+
+<label for="name" id="name-label">Enter your Name:</label>
+<input type="text" id="name" placeholder="Name" required pattern="[a-zA-Z]"><br><br>
+
+<label for="email" id="email-label">Enter Your Email:</label>
+<input type="email" id="email" Placeholder="Email" required pattern="[a-zA-Z]"><br><br>
+
+<label for="number" id="number-label">How Well Do You know Me?:</label>
+<input type="number" id="number" min="0" max="9"  required  placeholder="0-lowest 9-highest"><br><br>
+
+<label for="0-9">How Much Do you Like Me?:
+<select name="0-9" id="dropdown">
+  <option value="none" selected disabled hidden>0-lowest 9-highest</option>
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select><br><br>
+
+<fieldset> 
+  <legend>What is your favorite attribute of Marquis?</legend>
+  <label for="attributes">Hair</label>
+<input type="radio" name="attributes" id="hair" value="hair"><br>
+<label for="Intelligence">Intelligence</label>
+<input type="radio" name="attributes" id="Intelligence" value="intelligence"><br>
+<label for="smile">Smile</label>
+<input type="radio" name="attributes" id="smile" value="smile"><br>
+<label for="jokes">Jokes</label>
+<input type="radio" name="attributes" id="jokes" value="jokes">
+</fieldset><br><br>
+
+<label for="checks">Select All That Apply About Marquis:</label><br>
+
+<ul>
+  <li>He is Patient:<input type="checkbox" name="checks" id="patient" value="patient"></li>
+  <li>He is Kind:<input type="checkbox" name="checks" id="kind" value="kind"></li>
+  <li>He is Strong:<input type="checkbox" name="checks" id="strong" value="strong"></li>
+  <li>He is Handy:<input type="checkbox" name="checks" id="handy" value="handy"></li>
+</ul>
+
+<textarea>Please Provide Additional Comments About Marquis</textarea><br>
+<hr>
+<input id="submit" type="submit" name="submit-form" value="Submit">
+
+
+
+</form>
+<body>
+    
+</body>
+</html>
